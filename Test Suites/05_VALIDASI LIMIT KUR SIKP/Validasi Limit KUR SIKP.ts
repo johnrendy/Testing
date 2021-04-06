@@ -10149,7 +10149,7 @@
       <guid>99b8ea2c-e0ba-4dc1-8343-83ec7fdd6faf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/05_VALIDASI LIMIT KUR/TC07_Melakukan prakarsa kredit kur mikro yang lolos SIKP tetapi kena validasi limit kuota yang di setting di admin LAS pada saat di putus oleh KAUNIT</testCaseId>
+      <testCaseId>Test Cases/05_VALIDASI LIMIT KUR/TC07_Melakukan prakarsa kredit kur mikro yang lolos SIKP tetapi kena validasi limit kuota yang di setting di admin LAS</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>42745185-6c55-45c2-bad1-37998af4eaba</id>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_Melakukan prakarsa kredit kur mikro yang lolos SIKP tetapi kena validasi limit kuota yang di setting di admin LAS pada saat di putus oleh KAUNIT</name>
+   <name>TC07_Melakukan prakarsa kredit kur mikro yang lolos SIKP tetapi kena validasi limit kuota yang di setting di admin LAS</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>819aa048-c0aa-4e96-b2e8-fc7733e4275a</testCaseGuid>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>012185C_ALSN3</name>
+   <tag></tag>
+   <elementGuidId>e47f8686-2b13-42f1-b5d6-1d957d2fb129</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Penyelesaian pekerjaan proyek tidak tepat waktu (1% -15%)' or . = 'Penyelesaian pekerjaan proyek tidak tepat waktu (1% -15%)') and @resource-id = 'id.co.bri.brispotnew:id/cb_jawaban']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.TextView</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Penyelesaian pekerjaan proyek tidak tepat waktu (1% -15%)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value>id.co.bri.brispotnew:id/cb_jawaban</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>id.co.bri.brispotnew</value>
+   </webElementProperties>
+</WebElementEntity>

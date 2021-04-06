@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>AGUNAN_PROPERTI KOMERSIAL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>211f54df-02c2-4537-8130-44d7466a6c63</dataFileGUID>
+   <dataSourceUrl>E:\KATALON DRIVE\02_DB\DB BRISPOT MIKRO DAN RITEL\DB_BRISPOT RETAIL\DB_SURVEY AGUNAN\db_agunan_properti_komersial.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

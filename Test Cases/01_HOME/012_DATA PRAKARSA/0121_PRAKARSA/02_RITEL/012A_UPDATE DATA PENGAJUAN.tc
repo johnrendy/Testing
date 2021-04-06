@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>012A_UPDATE DATA PENGAJUAN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73be271c-884f-4edc-b0e5-8f15419b46e4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8534884-24be-4a30-bb50-ec77ee6a2a4e</id>
+      <masked>false</masked>
+      <name>jml_pengajuan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64f28ee3-9767-4130-af90-c38ddc1e99fe</id>
+      <masked>false</masked>
+      <name>periode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db366510-966e-4dc8-9bce-6c66cd6ac5a1</id>
+      <masked>false</masked>
+      <name>alasan</name>
+   </variable>
+</TestCaseEntity>

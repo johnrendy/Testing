@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0123A_STATUS PRESCREENING</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e2fb0be-163c-4f9a-a0ee-26480e15afea</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ce638de-eb3e-4cc2-8e69-f68d11bf121b</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a227a11-b75e-4b09-8330-c9a6db7bd75a</id>
+      <masked>false</masked>
+      <name>jenis_segmen_produk</name>
+   </variable>
+</TestCaseEntity>

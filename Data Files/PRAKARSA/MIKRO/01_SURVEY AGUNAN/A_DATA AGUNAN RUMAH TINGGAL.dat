@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>A_DATA AGUNAN RUMAH TINGGAL</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0881d5d2-5469-4727-881c-6a24931212c6</dataFileGUID>
+   <dataSourceUrl>E:\KATALON DRIVE\02_DB\DB BRISPOT MIKRO DAN RITEL\DB_BRISPOT MIKRO\DB_PRAKASA\SURVEY AGUNAN\db_prakasa survey agunan_rumah tinggal.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

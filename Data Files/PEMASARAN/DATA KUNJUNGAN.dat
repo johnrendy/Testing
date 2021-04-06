@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DATA KUNJUNGAN</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f7b716b2-fb25-4e6a-aa81-6fc4569c5343</dataFileGUID>
+   <dataSourceUrl>E:\KATALON DRIVE\02_DB\DB BRISPOT MIKRO DAN RITEL\DB_BRISPOT MIKRO\DB_PEMASARAN\db_pemasaran_datakunjungan.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

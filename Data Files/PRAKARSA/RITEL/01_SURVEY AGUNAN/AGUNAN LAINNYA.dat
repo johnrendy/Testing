@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>AGUNAN LAINNYA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>7e6d7f7f-be58-4842-944f-891e122d0a76</dataFileGUID>
+   <dataSourceUrl>E:\KATALON DRIVE\02_DB\DB BRISPOT MIKRO DAN RITEL\DB_BRISPOT RETAIL\DB_SURVEY AGUNAN\db_agunan_lainnya.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

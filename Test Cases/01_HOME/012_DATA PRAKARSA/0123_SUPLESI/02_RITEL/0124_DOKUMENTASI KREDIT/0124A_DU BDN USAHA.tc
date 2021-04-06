@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0124A_DU BDN USAHA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d345a10d-77d7-43ca-ad7a-ce8a1392e591</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf6c4fe1-601d-4e79-a68b-4ce93cca6f55</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

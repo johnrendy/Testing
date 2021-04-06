@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02B_BATAL PRAKARSA</name>
+   <tag>batal pra karsa</tag>
+   <comment></comment>
+   <testCaseGuid>5400dc5b-1523-4b56-adf8-491d0a361be9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e882850-50c4-4a1c-a776-32aaa6358106</id>
+      <masked>false</masked>
+      <name>NAMALENGKAP</name>
+   </variable>
+</TestCaseEntity>

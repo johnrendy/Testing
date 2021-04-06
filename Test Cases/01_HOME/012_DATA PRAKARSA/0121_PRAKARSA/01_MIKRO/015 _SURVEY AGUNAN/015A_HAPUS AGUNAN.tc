@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>015A_HAPUS AGUNAN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a600f5cb-5ca7-4864-83f1-b6af6ac64d9a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8ef6c94-f81f-48b5-aa7d-6fe39cd5bfc4</id>
+      <masked>false</masked>
+      <name>NAMALENGKAP</name>
+   </variable>
+</TestCaseEntity>

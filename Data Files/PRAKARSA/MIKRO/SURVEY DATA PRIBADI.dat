@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SURVEY DATA PRIBADI</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d166e8b5-c615-4dd2-94f8-a425e7570bd7</dataFileGUID>
+   <dataSourceUrl>E:\KATALON DRIVE\02_DB\DB BRISPOT MIKRO DAN RITEL\DB_BRISPOT MIKRO\DB_PRAKASA\db_prakasa survey data pribadi.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>020A_KIRIM PRAKASA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e8e42e4-e4ec-4e82-8173-0d8ee1c082ef</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c237d5d-ca42-47f2-b544-34a87623d86b</id>
+      <masked>false</masked>
+      <name>NAMALENGKAP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dea986c9-74e3-4240-a7ce-8442838c1e13</id>
+      <masked>false</masked>
+      <name>KET</name>
+   </variable>
+</TestCaseEntity>

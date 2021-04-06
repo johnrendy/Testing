@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0124B_DOKUMEN PERIJINAN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0e62727-7637-49e0-8d49-bda13232c1df</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>364f67d2-e5ce-4785-860d-d3d752a9b3e2</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af417c00-6df9-452d-b1db-39938732a384</id>
+      <masked>false</masked>
+      <name>jenis_perijinan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d3270a8-8c86-4fd1-9f56-c6f960ed625c</id>
+      <masked>false</masked>
+      <name>lainnya</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>673063ec-3071-458a-871e-9a32ac4210b2</id>
+      <masked>false</masked>
+      <name>no_perijinan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae00e051-8ff6-48ef-a673-3c748088a073</id>
+      <masked>false</masked>
+      <name>issue_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1f88cb9-4959-476c-a98d-cc35e0b4ad66</id>
+      <masked>false</masked>
+      <name>expired_date</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,255 @@
+package com.brispotritel.prakarsa
+
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import internal.GlobalVariable
+
+public class DokumenUtama {
+	@Keyword
+	public void openApplication(){
+		Mobile.startApplication('E:\\KATALON DRIVE\\01_APK\\BrispotDevKemendagri_02.apk', false, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.waitForElementPresent(findTestObject('01_HOME/012_PRAKARSA/012C_PRAKARSA'), GlobalVariable.timeOut)
+	}
+
+	@Keyword
+	public void Foto(){
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/0121511A_CAMERA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02A_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02D_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Keyword
+	public void dokumenUtamaBadanUsaha(){
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151A_FOTOUSAHA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		//CaptureScreenshoot
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\02_FOTO USAHA.png', FailureHandling.STOP_ON_FAILURE)
+
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151B_FOTONASABAH'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\03_FOTO NASABAH.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151C_FOTONPWP'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151J_FOTO'),
+				GlobalVariable.timeOut)
+		
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/0121511A_CAMERA'),
+			GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02D_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\04_FOTO NPWP.png', FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151D_DOKUMENTASILAINNYA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151I_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		Mobile.setText(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121513_KETFOTO/0121513A_KET'),
+				'FOTO LAINNYA', GlobalVariable.timeOut)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\05_FOTO LAINNYA.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121513_KETFOTO/0121513C_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\06_FOTO LAINNYA.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215B_KIRIM'), GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215F_YA'), GlobalVariable.timeOut)
+
+		Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\BADAN USAHA\\06_KIRIM DOKUMENTASI.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215H_CLOSE'), GlobalVariable.timeOut)
+
+	}
+	@Keyword
+	public void dokumenUtamaPribadi(){
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151A_FOTOUSAHA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		//CaptureScreenshoot
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\02_FOTO USAHA.png', FailureHandling.STOP_ON_FAILURE)
+
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151B_FOTONASABAH'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\03_FOTO NASABAH.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151C_FOTOKTP'),
+				GlobalVariable.timeOut)
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151K_FOTOKTPNASABAH'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151J_FOTO'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/0121511A_CAMERA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121511_TAMBAH FOTO/02_CAMERA/02D_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\04_FOTO KTP.png', FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151D_DOKUMENTASILAINNYA'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151I_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		Mobile.setText(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121513_KETFOTO/0121513A_KET'),
+				'FOTO LAINNYA', GlobalVariable.timeOut)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\05_FOTO LAINNYA.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/0121513_KETFOTO/0121513C_OK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151E_ICONPLUS'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151F_TAMBAH FOTO'),
+				GlobalVariable.timeOut)
+
+		CustomKeywords.'com.brispotritel.prakarsa.DokumenUtama.Foto'()
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\06_FOTO LAINNYA.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/012151_DOKUMEN UTAMA/012151H_BACK'),
+				GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215B_KIRIM'), GlobalVariable.timeOut)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215F_YA'), GlobalVariable.timeOut)
+
+		Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\DOKUMEN UTAMA\\PRIBADI\\06_KIRIM DOKUMENTASI.png',
+				FailureHandling.STOP_ON_FAILURE)
+
+		Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_DOKUMENTASI KREDIT/01215H_CLOSE'), GlobalVariable.timeOut)
+
+	}
+}

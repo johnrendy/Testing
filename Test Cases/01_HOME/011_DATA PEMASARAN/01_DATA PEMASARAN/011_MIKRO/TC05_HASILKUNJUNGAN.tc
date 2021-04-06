@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_HASILKUNJUNGAN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d409485-b43d-44b4-9d22-12b291e6f764</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cd5da6b-2114-4322-929f-3ae1aa3e8136</id>
+      <masked>false</masked>
+      <name>HASILKUNJUNGAN</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d082c1b-0502-4773-b5c6-981391895c51</id>
+      <masked>false</masked>
+      <name>KETERANGAN</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a786ff7-f00e-43f2-897c-559977a57153</id>
+      <masked>false</masked>
+      <name>nama_debitur</name>
+   </variable>
+</TestCaseEntity>

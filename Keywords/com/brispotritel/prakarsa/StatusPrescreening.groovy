@@ -117,5 +117,42 @@ public class StatusPrescreening {
 
 		}
 	}
+	
+	@Keyword
+	def PasarSasaran(TestObject to){
+		WebElement element = MobileElementCommonHelper.findElement(to, GlobalVariable.timeOut)
+		if (element == null) {
+			Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+		} else {
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214M_PASAR SASARAN'),
+			GlobalVariable.timeOut)
+		
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214N_OKE'), GlobalVariable.timeOut)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214O_LAMPIRAN'), GlobalVariable.timeOut)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214P_FAB'), GlobalVariable.timeOut)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_FOTO'), GlobalVariable.timeOut)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
+				GlobalVariable.timeOut)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02D_OK'),
+				GlobalVariable.timeOut)
+			
+			Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214S_OK'), GlobalVariable.timeOut)
+			
+			CustomKeywords.'com.brispotritel.prakarsa.StatusPrescreening.AddLampiran'(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_ADD'))
+			
+			'CaptureScreenshoot'
+			Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\STATUSPRESCREENING\\02_PENGECEKAN PASAR SASARAN.png',
+				FailureHandling.STOP_ON_FAILURE)
+			
+			Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214G_CLOSE'), GlobalVariable.timeOut)
+		}
+	}
 
 }

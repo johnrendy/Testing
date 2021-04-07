@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>8d012b13-f8eb-4bae-ad36-9f072898b84a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/07_KUR KHUSUS/TC01_Prakarsa KUR Khusus Dengan Pengajuan Plafond Kurang Dari 380jt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -4760,7 +4760,7 @@
    <testCaseLink>
       <guid>907a94d4-d4e5-44d1-9cef-924e46bf3648</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/07_KUR KHUSUS/TC03_Prakarsa Eksisting untuk memastikan bahwa tidak ada kendala pada pengembangan KUR Khusus</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -32,7 +32,9 @@ for (int i = 0; i < 10; i++) {
         GlobalVariable.timeOut)
 
     Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214E_YA'), GlobalVariable.timeOut)
-	Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
     Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214D_TUTUP'), 
         GlobalVariable.timeOut)
 
@@ -45,41 +47,42 @@ Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01215_
 
 Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/0121F_STATUS PRESCREENING'), GlobalVariable.timeOut)
 
-if(jenis_segmen_produk.equals('Ritel Komersial/Kecil')){
-	Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-} else if (jenis_segmen_produk.equals('ritel / kecil')) {
-    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-}else{
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214M_PASAR SASARAN'),
-		GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214N_OKE'), GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214O_LAMPIRAN'), GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214P_FAB'), GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_FOTO'), GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
-		GlobalVariable.timeOut)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02D_OK'),
-		GlobalVariable.timeOut)
-	
-	Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214S_OK'), GlobalVariable.timeOut)
-	
-	CustomKeywords.'com.brispotritel.prakarsa.StatusPrescreening.AddLampiran'(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_ADD'))
-	
-	'CaptureScreenshoot'
-	Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\STATUSPRESCREENING\\02_PENGECEKAN PASAR SASARAN.png',
-		FailureHandling.STOP_ON_FAILURE)
-	
-	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214G_CLOSE'), GlobalVariable.timeOut)
-}
+CustomKeywords.'com.brispotritel.prakarsa.StatusPrescreening.PasarSasaran'(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214M_PASAR SASARAN'))
 
+//if(jenis_segmen_produk.equals('Ritel Komersial/Kecil')){
+//	Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//} else if (jenis_segmen_produk.equals('ritel / kecil')) {
+//    Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//}else{
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214M_PASAR SASARAN'),
+//		GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214N_OKE'), GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214O_LAMPIRAN'), GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214P_FAB'), GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_FOTO'), GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02B_SHUTTERCAMERA'),
+//		GlobalVariable.timeOut)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01213_DATA PENJAMIN/012131_PENGURUS/0121312_FOTO/02_CAMERA/02D_OK'),
+//		GlobalVariable.timeOut)
+//	
+//	Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214S_OK'), GlobalVariable.timeOut)
+//	
+//	CustomKeywords.'com.brispotritel.prakarsa.StatusPrescreening.AddLampiran'(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214Q_ADD'))
+//	
+//	'CaptureScreenshoot'
+//	Mobile.takeScreenshot('E:\\KATALON DRIVE\\03_SCREENSHOOT\\BRISPOT RITEL\\PRAKARSA\\STATUSPRESCREENING\\02_PENGECEKAN PASAR SASARAN.png',
+//		FailureHandling.STOP_ON_FAILURE)
+//	
+//	Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214G_CLOSE'), GlobalVariable.timeOut)
+//}
 Mobile.tap(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214H_SLIK'), GlobalVariable.timeOut)
 
 Mobile.checkElement(findTestObject('01_HOME/012_PRAKARSA/0121_PRAKARSA/01212_RITEL/01214_STATUS PRESCREENING/01214T_CHECK SLIK'), 
